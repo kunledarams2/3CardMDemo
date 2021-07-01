@@ -102,6 +102,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:text="Feels like"
+        android:textSize="20sp"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -131,6 +132,7 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="60dp"
+        android:layout_marginEnd="10dp"
         android:background="@drawable/water_drop"
         app:layout_constraintEnd_toStartOf="@+id/textVew2"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -140,8 +142,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
-        android:layout_marginEnd="68dp"
+        android:layout_marginEnd="30dp"
         android:text="Humidity"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -151,7 +154,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:layout_marginEnd="80dp"
+        android:layout_marginEnd="50dp"
 
         android:text="94%"
         app:layout_constraintEnd_toEndOf="parent"
@@ -163,6 +166,7 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
         android:background="@drawable/ic_baseline_wb_sunny_24"
         app:layout_constraintEnd_toStartOf="@+id/uv_tv"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
@@ -173,22 +177,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="80dp"
+        android:layout_marginEnd="30dp"
         android:text="UV Index"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
 
     <TextView
         android:id="@+id/sun_degree"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="112dp"
-
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="52dp"
         android:text="7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/uv_tv" />
-
 
     <ImageView
         android:id="@+id/imagesuiew3"
@@ -207,6 +210,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="Wind"
+        android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/imagesuiew3"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
@@ -216,7 +220,7 @@
         android:layout_height="wrap_content"
 
         android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:text="7"
         app:layout_constraintStart_toEndOf="@+id/imagesuiew3"
         app:layout_constraintTop_toBottomOf="@+id/v_tv" />
